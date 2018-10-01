@@ -1,4 +1,5 @@
 #include <redciudades.h>
+#include <cstring>
 #include <fstream>
 
 using namespace std;
@@ -149,19 +150,19 @@ void RedCiudades::EscribirRedCiudades(const char * nombre, const char* comentari
 }
 
 int RedCiudades::NumCiudades() const {
-    // Se suponen hechas
+    return num_ciudades;
 }
 
 double RedCiudades::Distancia(int i, int j) const {
-    // Se suponen hechas
+    return distancia[i][j];
 }
 
 char* RedCiudades:: NombreCiudad(int i) const {
-    // Se suponen hechas
+    return info->nombre;
 }
 
 int RedCiudades::PoblacionCiudad(int i) const {
-    // Se suponen hechas
+    return info->poblacion;
 }
 
 
