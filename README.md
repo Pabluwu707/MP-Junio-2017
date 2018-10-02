@@ -1,2 +1,2 @@
 # MP
-Ejercicios random de MP y tal.
+Ejercicios aleatorios de MP y tal.
